@@ -1,0 +1,16 @@
+C:\Users\hashi\source\repos\Blackjack\Blackjack.Test\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\hashi\source\repos\Blackjack\Blackjack.Test\bin\Debug\netcoreapp2.0\xunit.runner.utility.netstandard15.dll
+C:\Users\hashi\source\repos\Blackjack\Blackjack.Test\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netstandard15.dll
+C:\Users\hashi\source\repos\Blackjack\Blackjack.Test\bin\Debug\netcoreapp2.0\Blackjack.Test.deps.json
+C:\Users\hashi\source\repos\Blackjack\Blackjack.Test\bin\Debug\netcoreapp2.0\Blackjack.Test.runtimeconfig.json
+C:\Users\hashi\source\repos\Blackjack\Blackjack.Test\bin\Debug\netcoreapp2.0\Blackjack.Test.runtimeconfig.dev.json
+C:\Users\hashi\source\repos\Blackjack\Blackjack.Test\bin\Debug\netcoreapp2.0\Blackjack.Test.dll
+C:\Users\hashi\source\repos\Blackjack\Blackjack.Test\bin\Debug\netcoreapp2.0\Blackjack.Test.pdb
+C:\Users\hashi\source\repos\Blackjack\Blackjack.Test\obj\Debug\netcoreapp2.0\Blackjack.Test.csprojResolveAssemblyReference.cache
+C:\Users\hashi\source\repos\Blackjack\Blackjack.Test\obj\Debug\netcoreapp2.0\Blackjack.Test.csproj.CoreCompileInputs.cache
+C:\Users\hashi\source\repos\Blackjack\Blackjack.Test\obj\Debug\netcoreapp2.0\Blackjack.Test.AssemblyInfoInputs.cache
+C:\Users\hashi\source\repos\Blackjack\Blackjack.Test\obj\Debug\netcoreapp2.0\Blackjack.Test.AssemblyInfo.cs
+C:\Users\hashi\source\repos\Blackjack\Blackjack.Test\obj\Debug\netcoreapp2.0\Blackjack.Test.dll
+C:\Users\hashi\source\repos\Blackjack\Blackjack.Test\obj\Debug\netcoreapp2.0\Blackjack.Test.pdb
+C:\Users\hashi\source\repos\Blackjack\Blackjack.Test\bin\Debug\netcoreapp2.0\Blackjack.Domain.dll
+C:\Users\hashi\source\repos\Blackjack\Blackjack.Test\bin\Debug\netcoreapp2.0\Blackjack.Domain.pdb

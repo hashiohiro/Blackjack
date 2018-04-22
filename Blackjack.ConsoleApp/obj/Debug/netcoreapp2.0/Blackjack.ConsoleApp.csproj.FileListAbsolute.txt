@@ -1,0 +1,13 @@
+C:\Users\hashi\source\repos\Blackjack\Blackjack.ConsoleApp\bin\Debug\netcoreapp2.0\Blackjack.ConsoleApp.deps.json
+C:\Users\hashi\source\repos\Blackjack\Blackjack.ConsoleApp\bin\Debug\netcoreapp2.0\Blackjack.ConsoleApp.runtimeconfig.json
+C:\Users\hashi\source\repos\Blackjack\Blackjack.ConsoleApp\bin\Debug\netcoreapp2.0\Blackjack.ConsoleApp.runtimeconfig.dev.json
+C:\Users\hashi\source\repos\Blackjack\Blackjack.ConsoleApp\bin\Debug\netcoreapp2.0\Blackjack.ConsoleApp.dll
+C:\Users\hashi\source\repos\Blackjack\Blackjack.ConsoleApp\bin\Debug\netcoreapp2.0\Blackjack.ConsoleApp.pdb
+C:\Users\hashi\source\repos\Blackjack\Blackjack.ConsoleApp\obj\Debug\netcoreapp2.0\Blackjack.ConsoleApp.csprojResolveAssemblyReference.cache
+C:\Users\hashi\source\repos\Blackjack\Blackjack.ConsoleApp\obj\Debug\netcoreapp2.0\Blackjack.ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\hashi\source\repos\Blackjack\Blackjack.ConsoleApp\obj\Debug\netcoreapp2.0\Blackjack.ConsoleApp.AssemblyInfoInputs.cache
+C:\Users\hashi\source\repos\Blackjack\Blackjack.ConsoleApp\obj\Debug\netcoreapp2.0\Blackjack.ConsoleApp.AssemblyInfo.cs
+C:\Users\hashi\source\repos\Blackjack\Blackjack.ConsoleApp\obj\Debug\netcoreapp2.0\Blackjack.ConsoleApp.dll
+C:\Users\hashi\source\repos\Blackjack\Blackjack.ConsoleApp\obj\Debug\netcoreapp2.0\Blackjack.ConsoleApp.pdb
+C:\Users\hashi\source\repos\Blackjack\Blackjack.ConsoleApp\bin\Debug\netcoreapp2.0\Blackjack.Domain.dll
+C:\Users\hashi\source\repos\Blackjack\Blackjack.ConsoleApp\bin\Debug\netcoreapp2.0\Blackjack.Domain.pdb
