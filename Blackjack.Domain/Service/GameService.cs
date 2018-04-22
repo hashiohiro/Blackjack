@@ -1,14 +1,10 @@
 ﻿using Blackjack.Domain.Model;
 using Blackjack.Domain.PublicIF;
-using Blackjack.Domain.Service;
 using Blackjack.Domain.Service.Policy;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Blackjack.Domain.Service
 {
-    public class GameService
+    public class GameService : IGameService
     {
         public GameService()
         {
@@ -22,8 +18,10 @@ namespace Blackjack.Domain.Service
         private PlayerTurnPolicy playerTurnPolicy;
         private DealerTurnPolicy dealerTurnPolicy;
 
-        
-
+        /// <summary>
+        /// ゲームを実行します。
+        /// </summary>
+        /// <returns>勝者のオブジェクト</returns>
         public IPlayable Execute()
         {
             DrawOnFirstTime();
@@ -46,7 +44,7 @@ namespace Blackjack.Domain.Service
         /// <summary>
         /// ゲームを初期化する。
         /// </summary>
-        protected void Init()
+        public void Init()
         {
             stock = new Stock();
             stock.Shuffle();
@@ -61,7 +59,7 @@ namespace Blackjack.Domain.Service
         /// <summary>
         /// 初回のドロー
         /// </summary>
-        protected void DrawOnFirstTime()
+        private void DrawOnFirstTime()
         {
             player.Draw(stock);
             dealer.Draw(stock);
@@ -71,7 +69,7 @@ namespace Blackjack.Domain.Service
         /// 勝敗の判定を行う
         /// </summary>
         /// <returns>勝者</returns>
-        protected IPlayable Judge()
+        private IPlayable Judge()
         {
             return judgementPolicy.Judge(dealer, player);
         }

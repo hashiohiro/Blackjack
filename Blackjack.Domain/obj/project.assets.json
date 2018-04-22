@@ -895,11 +895,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\hashi\\source\\repos\\Blackjack\\Blackjack.Domain\\Blackjack.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\hashi\\source\\repos\\BlackJack\\Blackjack.Domain\\Blackjack.Domain.csproj",
       "projectName": "Blackjack.Domain",
-      "projectPath": "C:\\Users\\hashi\\source\\repos\\Blackjack\\Blackjack.Domain\\Blackjack.Domain.csproj",
+      "projectPath": "C:\\Users\\hashi\\source\\repos\\BlackJack\\Blackjack.Domain\\Blackjack.Domain.csproj",
       "packagesPath": "C:\\Users\\hashi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hashi\\source\\repos\\Blackjack\\Blackjack.Domain\\obj\\",
+      "outputPath": "C:\\Users\\hashi\\source\\repos\\BlackJack\\Blackjack.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

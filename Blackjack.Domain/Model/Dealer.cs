@@ -1,8 +1,8 @@
-﻿using Blackjack.Domain.PublicIF;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
+
+using Blackjack.Domain.PublicIF;
 
 namespace Blackjack.Domain.Model
 {

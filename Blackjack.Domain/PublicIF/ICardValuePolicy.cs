@@ -1,10 +1,10 @@
 ﻿using Blackjack.Domain.Enum;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Blackjack.Domain.PublicIF
 {
+    /// <summary>
+    /// カードの価値判断の基準を定義します。
+    /// </summary>
     public interface ICardValuePolicy
     {
         /// <summary>

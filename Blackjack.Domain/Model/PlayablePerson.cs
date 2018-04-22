@@ -1,8 +1,7 @@
-﻿using Blackjack.Domain.Service;
-using Blackjack.Domain.Service.Policy;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.Text;
+
+using Blackjack.Domain.Service.Policy;
 
 namespace Blackjack.Domain.Model
 {

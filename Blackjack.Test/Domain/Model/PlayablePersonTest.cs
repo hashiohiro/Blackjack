@@ -1,8 +1,6 @@
-﻿using Blackjack.Domain.Model;
-using System;
-using System.Collections.Generic;
-using System.Text;
-using Xunit;
+﻿using Xunit;
+
+using Blackjack.Domain.Model;
 
 namespace Blackjack.Test.Domain.Model
 {

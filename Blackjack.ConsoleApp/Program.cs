@@ -1,9 +1,6 @@
-﻿using Blackjack.Domain.Model;
-using Blackjack.Domain.PublicIF;
+﻿using System;
+
 using Blackjack.Domain.Service;
-using Blackjack.Domain.Service.Policy;
-using SimpleInjector;
-using System;
 
 namespace Blackjack.ConsoleApp
 {
@@ -11,8 +8,9 @@ namespace Blackjack.ConsoleApp
     {
         static void Main(string[] args)
         {
-            var game = new GameService();
-            var winner = game.Execute();
+            var service = DomainContext.GetService<GameService>();
+            var winner = service.Execute();
+
             Console.WriteLine($"{winner.HandleName}の勝利!");
             Console.WriteLine("続行するには何かキーを押してください．．．");
             Console.ReadKey();

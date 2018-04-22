@@ -1,15 +1,14 @@
 ﻿using Blackjack.Domain.Model;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Blackjack.Domain.PublicIF
 {
+    /// <summary>
+    /// プレイヤーのターンに行うことを定義します。
+    /// </summary>
     public interface IPlayablePersonTurnPolicy
     {
-        
         /// <summary>
-        /// プレイヤーのターンごとに行う処理を定義します。
+        /// プレイヤーのターンに行う処理を定義します。
         /// </summary>
         /// <param name="stock">山札</param>
         /// <param name="playable">対象プレイヤー</param>

@@ -1,10 +1,8 @@
-﻿using Blackjack.Domain.Enum;
-using Blackjack.Domain.Model;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Linq;
 using Xunit;
+
+using Blackjack.Domain.Enum;
+using Blackjack.Domain.Model;
 
 namespace Blackjack.Test.Domain.Model
 {

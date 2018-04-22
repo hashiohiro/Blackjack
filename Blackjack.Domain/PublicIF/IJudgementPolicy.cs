@@ -1,10 +1,10 @@
 ﻿using Blackjack.Domain.Model;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Blackjack.Domain.PublicIF
 {
+    /// <summary>
+    /// 勝敗の判断基準を定義します。
+    /// </summary>
     public interface IJudgementPolicy
     {
         /// <summary>

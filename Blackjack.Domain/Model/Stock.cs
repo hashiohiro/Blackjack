@@ -1,9 +1,9 @@
-﻿using Blackjack.Domain.Enum;
-using Blackjack.Domain.Util;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
+
+using Blackjack.Domain.Enum;
+using Blackjack.Domain.Util;
 
 namespace Blackjack.Domain.Model
 {

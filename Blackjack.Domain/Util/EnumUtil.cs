@@ -1,9 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
 namespace Blackjack.Domain.Util
 {
+    /// <summary>
+    /// 列挙体操作の便利なメソッドを提供します。
+    /// </summary>
     public static class EnumUtil
     {
         public static List<T> GetElements<T>()

@@ -1,9 +1,6 @@
 ﻿using Blackjack.Domain.Enum;
 using Blackjack.Domain.PublicIF;
 using Blackjack.Domain.Service;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Blackjack.Domain.Model
 {

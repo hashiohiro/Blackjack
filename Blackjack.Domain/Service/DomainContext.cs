@@ -1,12 +1,15 @@
-﻿using Blackjack.Domain.PublicIF;
-using Blackjack.Domain.Service.Policy;
+﻿using System;
+
 using SimpleInjector;
-using System;
-using System.Collections.Generic;
-using System.Text;
+
+using Blackjack.Domain.PublicIF;
+using Blackjack.Domain.Service.Policy;
 
 namespace Blackjack.Domain.Service
 {
+    /// <summary>
+    /// ドメイン層の実行コンテキストを提供します。
+    /// </summary>
     public static class DomainContext
     {
         private static readonly Container container;
@@ -46,6 +49,7 @@ namespace Blackjack.Domain.Service
         /// </summary>
         private static void Setup()
         {
+            container.Register<IGameService, GameService>();
             container.Register<ICardValuePolicy, SimpleCardValuePolicy>();
             container.Register<IJudgementPolicy, JudgementPolicy>();
             container.Register<DealerTurnPolicy, DealerTurnPolicy>();

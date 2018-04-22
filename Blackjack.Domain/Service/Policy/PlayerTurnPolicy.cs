@@ -1,13 +1,18 @@
-﻿using Blackjack.Domain.Model;
+﻿using System;
+
 using Blackjack.Domain.PublicIF;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Blackjack.Domain.Service.Policy
 {
+    /// <summary>
+    /// プレイヤーのターンに行うことを定義します。
+    /// </summary>
     public class PlayerTurnPolicy : PlayablePersonTurnPolicy
     {
+        /// <summary>
+        /// ドローが必要か判定します。
+        /// </summary>
+        /// <returns>trueの場合はドローする。falseの場合はドローしない。</returns>
         public override bool NeedDraw(IPlayable playable)
         {
             Console.Write("ドローする? : [Y/n]");
