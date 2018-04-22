@@ -17,20 +17,5 @@ namespace Blackjack.ConsoleApp
             Console.WriteLine("続行するには何かキーを押してください．．．");
             Console.ReadKey();
         }
-
-        static bool WantToDraw()
-        {
-            Console.Write("ドローする? : [Y/n]");
-            var cmd = Console.ReadLine();
-
-            switch (cmd.Trim().ToLower())
-            {
-                case "n":
-                    return false;
-                case "y":
-                default:
-                    return true;
-            }
-        }
     }
 }
