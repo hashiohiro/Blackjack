@@ -49,6 +49,8 @@ namespace Blackjack.Domain.Service
         protected void Init()
         {
             stock = new Stock();
+            stock.Shuffle();
+
             player = new Player(1, "MurabitoA");
             dealer = new Dealer(1, "MurabitoB");
             judgementPolicy = DomainContext.GetService<IJudgementPolicy>();

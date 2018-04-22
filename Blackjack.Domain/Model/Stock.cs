@@ -51,7 +51,6 @@ namespace Blackjack.Domain.Model
         private void Init()
         {
             cards = CreateCards();
-            Shuffle();
         }
 
         /// <summary>

@@ -1,7 +1,6 @@
 C:\Users\hashi\source\repos\Blackjack\Blackjack.Domain\bin\Debug\netcoreapp2.0\Blackjack.Domain.deps.json
 C:\Users\hashi\source\repos\Blackjack\Blackjack.Domain\bin\Debug\netcoreapp2.0\Blackjack.Domain.dll
 C:\Users\hashi\source\repos\Blackjack\Blackjack.Domain\bin\Debug\netcoreapp2.0\Blackjack.Domain.pdb
-C:\Users\hashi\source\repos\Blackjack\Blackjack.Domain\obj\Debug\netcoreapp2.0\Blackjack.Domain.csprojResolveAssemblyReference.cache
 C:\Users\hashi\source\repos\Blackjack\Blackjack.Domain\obj\Debug\netcoreapp2.0\Blackjack.Domain.csproj.CoreCompileInputs.cache
 C:\Users\hashi\source\repos\Blackjack\Blackjack.Domain\obj\Debug\netcoreapp2.0\Blackjack.Domain.AssemblyInfoInputs.cache
 C:\Users\hashi\source\repos\Blackjack\Blackjack.Domain\obj\Debug\netcoreapp2.0\Blackjack.Domain.AssemblyInfo.cs

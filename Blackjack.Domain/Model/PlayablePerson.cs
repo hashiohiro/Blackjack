@@ -81,6 +81,7 @@ namespace Blackjack.Domain.Model
         public IEnumerable<Card> Draw(Stock stock)
         {
             PreDraw();
+
             var cards = stock.Draw(CurrentDrawCardCount);
 
             foreach(var c in cards)

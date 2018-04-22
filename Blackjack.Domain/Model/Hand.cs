@@ -26,6 +26,11 @@ namespace Blackjack.Domain.Model
         }
 
         /// <summary>
+        /// 手札のカード枚数を取得します。
+        /// </summary>
+        public int Count => cards.Count();
+
+        /// <summary>
         /// 手持ちのカードの合計を求めます。
         /// </summary>
         public int TotalValue
